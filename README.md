@@ -1,4 +1,6 @@
-# Automação com Selenium
+# Automação Ruby
+**Capybara, Cucumber, Rspec, Siteprism e Selenium Webdriver**
+
 - Fluxo de Candidatura no banco de talentos
   - Criação dos arquivos Gherkin
   - Criação dos scripts de automação
@@ -23,6 +25,6 @@ _____
 
 ## Report de bugs
 ### Link com redirecionamento não encontrado
-Ao clicar sobre o texto "Banco de talentos" há um href para "talentBankApply" no qual a página não é encontrada (status 404).
+Ao clicar sobre o texto "Banco de talentos" na página de vagas, há um href para "talentBankApply" no qual a página não é encontrada (status 404).
 Segue evidência do incidente.
 ![Redirect para página não encontrada](images/redirect_404.png)
