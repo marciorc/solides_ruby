@@ -1,12 +1,15 @@
 # Automação com Selenium
 - Fluxo de Candidatura no banco de talentos
-- Criação dos arquivos Gherkin
-- Criação dos scripts de automação
+  - Criação dos arquivos Gherkin
+  - Criação dos scripts de automação
+
+## Dependências
+- ruby (3.0.2p107)
+- bundler (2.2.22)
 
 ## Pré-configuração
 - Download do [ChromeDriver](https://chromedriver.chromium.org/downloads)
 - Adicionar as váriaveis de ambiente o caminho para o path do chromedriver
-
 - Realizar o clone do projeto
 - Executar o `bundle install` para instalar as gems
 
