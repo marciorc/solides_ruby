@@ -1,4 +1,4 @@
-# Page Object da pagina de Curriculum
+# Page Object da pagina de curriculum
 class CurriculumPage < SitePrism::Page
   element :inp_tel_ou_cel, 'input#contacts'
   element :inp_email, 'input#email'

@@ -1,4 +1,4 @@
-# Page Object da Profile pagina
+# Page Object da pagina de profiler
 class ProfilerPage < SitePrism::Page
   elements :btn_caracteristicas, '.sc-fNHLbd.hJUXPD'
   element :btn_caracteristica1, '.sc-fNHLbd.hJUXPD:first-child'

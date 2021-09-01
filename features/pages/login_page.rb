@@ -1,13 +1,13 @@
 # Page Object da pagina de login/registro
 class LoginPage < SitePrism::Page
-  element :btn_registrar_se, '.sc-bRBYWo.jBpbNc .sc-hzDkRC.hrgiCe'
-
   element :inp_user, 'input[name="user"]'
+  element :inp_senha, '[label="Senha"] input[type="password"]'
   element :btn_logar, '.sc-VigVT.kqpEiV'
+  element :lnk_registrar_se, '.sc-bRBYWo.jBpbNc .sc-hzDkRC.hrgiCe'
 
   element :inp_email, 'input[name="email"]'
   element :inp_cpf, 'input[name="cpf"]'
-  element :inp_senha, '[label="Senha"] input[type="password"]'
+
   element :inp_repetir_senha, '[label="Repetir Senha"] input[type="password"]'
   element :ckb_aceitar_termos, '.pure-material-checkbox span'
   element :btn_cadastrar, 'button[type="submit"] .sc-VigVT.kqpEiV'
