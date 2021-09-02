@@ -13,7 +13,7 @@ class LoginPage < SitePrism::Page
   element :btn_cadastrar, 'button[type="submit"] .sc-VigVT.kqpEiV'
 
   def clicar_em_registrar_se
-    btn_registrar_se.click
+    lnk_registrar_se.click
   end
 
   def gerar_email_e_senha
